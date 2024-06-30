@@ -147,6 +147,62 @@ a{
     margin-top: 50px;
     margin-left: 80%;
 }
+
+.newsletter{
+    background-color: #927E6D;
+}
+
+.newsletter .box-newsletter{
+    text-align: center;
+    background-color: #927E6D;
+    background-size: cover;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.newsletter .box-newsletter h2{
+    font-size: 2.5rem;
+}
+
+.newsletter .box-newsletter p{
+    margin: 13px 0;
+    font-size: 1.2rem;
+}
+
+.newsletter .box-newsletter input{
+    width: 35%;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    color: #00000098;
+}
+
+.newsletter .box-newsletter button{
+    font-size: 15px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 14px;
+    color:white;
+    background-color: rgb(255, 39, 39);
+    cursor: pointer;
+}
+
+footer{
+    background-color: white;
+}
+
+footer .container{
+    display: flex;
+    color: white;
+}
+
+footer .container ul{
+    width: 25%;
+    ;
+}
+
 /* Media Queries*/
 @media screen and (max-width:768px){
     .offcanvas{
@@ -177,4 +233,6 @@ a{
         width: 90%!important;
     }
 }
+
+
 

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/productpage.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="product-details">
+            <h2>Vestido Elegance Floral</h2>
+            <img src="/image/vestido preto colado.svg" alt="Vestido Elegance Floral">
+            <p><strong>Descrição:</strong> O Vestido Elegance Floral combina estilo e conforto em um design exclusivo. Feito com tecido leve e estampado com flores delicadas, este vestido é perfeito para qualquer ocasião, desde eventos formais até encontros casuais.</p>
+            <p><strong>Preço:</strong> R$ 189,90</p>
+            <label for="size">Selecione o tamanho:</label>
+            <select id="size">
+                <option value="XS">XS</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select>
+            <label for="quantity">Quantidade:</label>
+            <input type="number" id="quantity" value="1" min="1">
+            <button onclick="addToCart()">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
